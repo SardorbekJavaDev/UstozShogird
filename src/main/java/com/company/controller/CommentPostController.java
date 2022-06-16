@@ -21,7 +21,7 @@ import javax.validation.Valid;
 @Api("CommentPost")
 public class CommentPostController {
     private final CommentPostService commentPostService;
-
+// QWERT YUIOP
     @ApiOperation(value = "Create Comment Post", notes = "Method used for Create Comment Post")
     @PostMapping("")
     public ResponseEntity<CommentPostResponseDTO> create(@RequestBody @Valid CommentPostRequestDTO dto,
